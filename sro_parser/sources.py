@@ -1,0 +1,86 @@
+SOURCES = [
+    {
+        "title": "Реестр членов — аудиторов и индивидуальных аудиторов",
+        "sheet": "auditors",
+        "url_template": "https://sroaas.ru/reestr/auditory/?PAGEN_1=page-{page}",
+        "sample": "html-samples/Сведения из реестра СРО ААС в части аудиторов.html",
+    },
+    {
+        "title": "Реестр членов — аудиторских организаций",
+        "sheet": "audit_orgs",
+        "url_template": "https://sroaas.ru/reestr/organizatsiy/?PAGEN_1={page}",
+        "sample": "html-samples/Сведения из реестра СРО ААС в части аудиторских организаций.html",
+    },
+    {
+        "title": "Реестр выданных СРО ААС квалификационных аттестатов аудитора",
+        "sheet": "issued_attests",
+        "url_template": "https://sroaas.ru/reestr/reestr-vydannykh-sro-aas-kvalifikatsionnykh-attestatov-auditora/?PAGEN_1={page}",
+        "sample": "html-samples/Реестр выданных СРО ААС квалификационных аттестатов аудитора.html",
+    },
+    {
+        "title": "Перечень индивидуальных аудиторов",
+        "sheet": "individuals",
+        "url_template": "https://sroaas.ru/reestr/ia/?PAGEN_1=page-{page}",
+        "sample": "html-samples/Реестр индивидуальных аудиторов СРО ААС.html",
+    },
+    {
+        "title": "Реестр учебно-методических центров",
+        "sheet": "umc",
+        "url_template": "https://sroaas.ru/reestr/umc/",
+        "sample": "html-samples/Реестр учебно-методических центров.html",
+    },
+    {
+        "title": "Сведения о подтверждении ОППК аудиторами",
+        "sheet": "oppk",
+        "url_template": "https://sroaas.ru/reestr/oppk/?PAGEN_1=page-{page}",
+        "sample": "html-samples/Сведения о подтверждении ОППК аудиторами – членами СРО ААС.html",
+    },
+    {
+        "title": "Сведения о прохождении ПК руководителем аудита ОЗО ФР",
+        "sheet": "pc_ozo",
+        "url_template": "https://sroaas.ru/reestr/pcozo/?PAGEN_1=page-{page}",
+        "sample": "html-samples/Сведения о прохождении ПК руководителем аудита ОЗО ФР.html",
+    },
+    {
+        "title": "Реестр аудиторов, прекративших членство в СРО ААС",
+        "sheet": "former_auditors",
+        "url_template": "https://sroaas.ru/reestr/reestr-auditorov-prekrativshikh-chlenstvo-v-sro-aas/?PAGEN_1=page-{page}",
+        "sample": "html-samples/Реестр аудиторов, прекративших членство.html",
+    },
+    {
+        "title": "Реестр аудиторских организаций, прекративших членство в СРО ААС",
+        "sheet": "former_orgs",
+        "url_template": "https://sroaas.ru/reestr/reestr-auditorskikh-organizatsiy-prekrativshikh-chlenstvo-v-sro-aas/?PAGEN_1={page}",
+        "sample": "html-samples/Реестр аудиторских организаций, прекративших членство в СРО ААС.html",
+    },
+    {
+        "title": "Реестр аннулированных СРО ААС квалификационных аттестатов аудитора",
+        "sheet": "annulled_attests",
+        "url_template": "https://sroaas.ru/reestr/reestr-annulirovannykh-sro-aas-kvalifikatsionnykh-attestatov-auditora/?PAGEN_1={page}",
+        "sample": "html-samples/Реестр аннулированных СРО ААС квалификационных аттестатов аудитора.html",
+    },
+    {
+        "title": "УМЦ, исключенные из реестра СРО ААС",
+        "sheet": "removed_umc",
+        "url_template": "https://sroaas.ru/reestr/umc-prekrativshikh-chlenstvo/",
+        "sample": "html-samples/УМЦ исключенные из реестра СРО ААС.html",
+    },
+    {
+        "title": "Меры дисциплинарного воздействия к членам СРО ААС - аудиторам и индивидуальным аудиторам",
+        "sheet": "discipline_auditors",
+        "url_template": "https://sroaas.ru/reestr/mery-distsiplinarnogo-vozdeystviya-k-chlenam-sro-aas/?PAGEN_1={page}",
+        "sample": "html-samples/Реестр мер дисциплинарного и иного воздействия к аудиторам СРО ААС.html",
+    },
+    {
+        "title": "Меры дисциплинарного воздействия к членам СРО – аудиторским организациям",
+        "sheet": "discipline_orgs",
+        "url_template": "https://sroaas.ru/reestr/mery-distsiplinarnogo-vozdeystviya-k-chlenam-sro-aas-organizatsiy/?PAGEN_1={page}",
+        "sample": "html-samples/Реестр мер дисциплинарного и иного воздействия к аудиторским организациям.html",
+    },
+    {
+        "title": "Перечень российских и международных сетей аудиторских организаций",
+        "sheet": "audit_networks",
+        "url_template": "https://sroaas.ru/reestr/seti-auditorskikh-organizatsiy/",
+        "sample": "html-samples/Перечень сетей аудиторских организаций.html",
+    },
+]
