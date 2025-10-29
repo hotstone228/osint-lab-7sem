@@ -83,4 +83,10 @@ SOURCES = [
         "url_template": "https://sroaas.ru/reestr/seti-auditorskikh-organizatsiy/",
         "sample": "html-samples/Перечень сетей аудиторских организаций.html",
     },
+    {
+        "title": "Информация о деятельности аудиторской организации ООО «ЛИДЕР АУДИТ» за 2024 год - Лидер Аудит",
+        "sheet": "lider_audit",
+        "url_template": "https://lideraudit.ru/informacija-o-dejatelnosti-auditorskoj-organizacii-ooo-lider-audit-za-2024-god/",
+        "sample": "html-samples/Информация о деятельности аудиторской организации ООО «ЛИДЕР АУДИТ» за 2024 год - Лидер Аудит.html",
+    },
 ]
